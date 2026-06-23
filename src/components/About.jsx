@@ -17,7 +17,7 @@ export default function About() {
 
   return (
     <section id="about" className="py-20 bg-slate-800/50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 50 }}
@@ -42,7 +42,7 @@ export default function About() {
             />
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Left Content */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
